@@ -1,0 +1,7 @@
+node_modules
+
+# babel-compiled file
+script.js
+
+# config files
+config.js
