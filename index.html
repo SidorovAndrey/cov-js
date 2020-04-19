@@ -5,20 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Covid-JS</title>
-    <style>
-        #map {
-            height: 100%;
-        }
-
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="map"></div>
+    <div class="countries-filter">
+        <label class="countries-label" for="countries">Specify countries, separated by ';'</label>
+        <textarea class="countries-text" name="countries" id="countries"></textarea>
+    </div>
+    <div class="chart-wrapper">
+        <canvas id="chart"></canvas>
+    </div>
 </body>
 
 <script src="script.js"></script>
